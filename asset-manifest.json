@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.d1243d42.chunk.css",
+    "main.js": "./static/js/main.bf4ce9c2.chunk.js",
+    "main.js.map": "./static/js/main.bf4ce9c2.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.703194e9.js",
+    "runtime-main.js.map": "./static/js/runtime-main.703194e9.js.map",
+    "static/css/2.8c5372c1.chunk.css": "./static/css/2.8c5372c1.chunk.css",
+    "static/js/2.bf437c0d.chunk.js": "./static/js/2.bf437c0d.chunk.js",
+    "static/js/2.bf437c0d.chunk.js.map": "./static/js/2.bf437c0d.chunk.js.map",
+    "static/js/3.3f4176b5.chunk.js": "./static/js/3.3f4176b5.chunk.js",
+    "static/js/3.3f4176b5.chunk.js.map": "./static/js/3.3f4176b5.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.8c5372c1.chunk.css.map": "./static/css/2.8c5372c1.chunk.css.map",
+    "static/css/main.d1243d42.chunk.css.map": "./static/css/main.d1243d42.chunk.css.map",
+    "static/js/2.bf437c0d.chunk.js.LICENSE.txt": "./static/js/2.bf437c0d.chunk.js.LICENSE.txt",
+    "static/media/dota.69f2813d.png": "./static/media/dota.69f2813d.png",
+    "static/media/logo.6ce24c58.svg": "./static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.703194e9.js",
+    "static/css/2.8c5372c1.chunk.css",
+    "static/js/2.bf437c0d.chunk.js",
+    "static/css/main.d1243d42.chunk.css",
+    "static/js/main.bf4ce9c2.chunk.js"
+  ]
+}
