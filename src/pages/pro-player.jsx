@@ -4,15 +4,18 @@ import { useEffect, useState } from "react";
 
 const ProPlayerPage = () => {
   const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(false);
   const [selectPlayer, setSelectPlayer] = useState([]);
   useEffect(() => {
+    setLoading(true);
     axios
       .get("https://api.opendota.com/api/proPlayers")
       .then((res) => {
         console.log(res);
         setData(res.data);
       })
-      .catch((err) => console.log(err));
+      .catch((err) => console.log(err))
+      .finally(() => setLoading(false));
   }, []);
   console.log(data);
 
@@ -26,7 +29,9 @@ const ProPlayerPage = () => {
   return (
     <div>
       <div style={{ display: "flex", justifyContent: "center" }}>
+        {loading ? <p>loading!</p> : null}
         <Select
+          disabled={loading}
           onSelect={(value) => {
             console.log(value);
             filterTeam(value);

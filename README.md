@@ -12,4 +12,14 @@
 
 - router
 - 3rd party components
-# dota2-react
+
+## Day 3
+
+- use yarn instead of npm
+- restructure project
+- improve loading
+- Init route for crud
+
+## Day 4
+
+- CRUD operation

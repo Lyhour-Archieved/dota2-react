@@ -23,6 +23,9 @@ export const Header = (props) => {
           <Link to="/pro-player">
             <li>Top player</li>
           </Link>
+          <Link to="/crud">
+            <li>Crud</li>
+          </Link>
         </ul>
       </div>
     </div>
